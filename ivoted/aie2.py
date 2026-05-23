@@ -127,7 +127,7 @@ p.add_argument(
     help="Trace buffer size",
 )
 
-p.add_argument("-of", "--output-file", required=True, dest="output_file", help="The name in which the generated MLIR mldule will be written to")
+p.add_argument("-of", "--output-file", required=True, dest="output_file", help="The name of the file in which the generated MLIR mldule will be written to")
 
 opts = p.parse_args(sys.argv[1:])
 
